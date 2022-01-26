@@ -1,0 +1,361 @@
+* {
+    margin:0;
+    padding: 0;
+}
+.homePage {
+    height: 50vh;
+    background-color: rgb(2, 103, 244);
+    width: 100vw;
+    
+}
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar div:nth-child(2) ul li{
+    display: inline;
+    font-size: 1.25rem;
+    color: white;
+    padding: 12px;
+
+}
+.navbar div:nth-child(3) button {
+    background-color: white;
+    color:rgb(2, 103, 244) ;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: -1vh;
+
+}
+.navbar div:first-child {
+    margin-top: 1.5vh;
+}
+.navigation, .download {
+    margin-top: 4vh;
+}
+.mainTitle {
+    height:38vh;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.arrow {
+    border:1px solid rgb(180, 177, 177);
+    height: 6vh;
+    margin-top: 10vh;
+}
+.title {
+    color: white;
+    margin-top: 2vh;
+    
+}
+.btn {
+    margin-top: 20px;
+    height: 30px;
+    border-radius: 15px;
+    width: 120px;
+    border: none;
+    
+    
+
+}
+.title p {
+    margin-top: 2vh;
+}
+.left-btn {
+    background-color:white;
+    color: blue;
+}
+.right-btn {
+    background-color: rgb(2, 103, 244);
+    border: 2px solid white;
+    color: white;
+    margin-left: 10px;
+}
+.rocket {
+    margin-top:10px;
+   
+}
+.services {
+    height: 60vh;
+    background-color: rgb(243, 246, 247);
+}
+.services-title {
+    text-align: center;
+}
+.services-title p {
+    margin-top: 10px;
+}
+.cd {
+    background-color:white ;
+    height: 40vh;
+    width: 20vw;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5px;
+    
+    
+    
+    
+}
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+   
+    
+   
+}
+.cd-1-img {
+    float: right;
+}
+.cd-2 {
+    margin-left: 100px;
+}
+.cd-3 {
+    margin-left: 100px;
+    
+}
+.cd-title {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.cd p {
+    margin-top: 10px;
+    line-height:20px;
+}
+.cd button {
+    margin-top: 8px;
+    background-color: white;
+    border: none;
+    margin-left: 80px;
+    color: blue;
+}
+.works {
+    background-color: white;
+    height:120vh ;
+    text-align: center;
+}
+.works p {
+    margin-top: 15px;
+}
+.img-assemble {
+    width: 45vw;
+    height: 90vh;
+    background-color: red;
+    margin-left: 450px;
+    margin-top: 50px;
+    
+}
+
+
+.works ul {
+    display: inline-block;
+    list-style-type: none;
+    margin-right:20px ;
+    line-height: 40px;
+    
+    
+    
+    
+}
+
+.img-assemble {
+    display: flex;
+    background-color: white;
+}
+.entire {
+    align-items: center;
+}
+.works ul li div {
+    background-color:rgb(25, 159, 232);
+    border-radius: 30px;
+    width: 200px;
+    color: white;
+}
+.plans {
+    height: 90vh;
+    background-color:#f3f6f7;
+}
+.plans-title {
+    text-align: center;
+}
+.plans-title p {
+    margin-top: 14px;
+}
+.plans-card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.pl-card {
+    background-color:rgb(25, 159, 232) ;
+    width: 20vw;
+    height: 60vh;
+    margin-top: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.plans-card-img-2 {
+    margin-top: 40px;
+}
+.pl-information {
+    text-align: center;
+    color: white;
+    line-height: 35px;
+}
+.pl-information span:first-child {
+    font-size: 2rem;
+}
+.left-p-card-information {
+    margin-right: 98px;
+}
+.btn-information {
+    background-color: white;
+    color: blue;
+    border: none;
+    width: 130px;
+    height: 35px;
+    border-radius: 20px;
+    margin-top: 35px;
+}
+.plans-card-img-1 {
+    margin-top: 40px;
+}
+.plans-card-img-3 {
+    margin-top: 40px;
+}
+.questions {
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.frequently-asked-questions button {
+    background-color: white;
+    color: blue;
+    border: none;
+    width: 180px;
+    height: 35px;
+    border-radius: 20px;
+    margin-top: 35px;
+}
+.frequently-asked-questions img {
+    margin-left: 200px;
+}
+.frequently-asked-questions p:first-of-type {
+    margin-top: 10px;
+}
+.frequently-asked-questions p:nth-of-type(2) {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.qt-one img{
+    margin-left: 200px;
+
+}
+.qt {
+    margin-top: 70px;
+}
+.qt-two img {
+    margin-left: 205px;
+} 
+.qt-three img {
+    margin-left: 196px;
+}
+.qt-four img {
+    margin-left: 199px;
+}
+.qt-five img {
+    margin-left:201px ;
+}
+.clients {
+    background-color: rgb(243, 246, 247);
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.review {
+    margin-left: 150px;
+}
+.clients button {
+    background-color: rgb(243, 246, 247);
+    color: blue;
+    border: none;
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    
+    
+}
+.clients img:first-of-type {
+    margin-top: 20px;
+}
+.clients p {
+    margin-top: 25px;
+    font-size: 1.25rem;
+}
+.clients img:nth-of-type(2) {
+    margin-top: 80px;
+}
+.team {
+    height: 90vh;
+}
+.what-clients-says {
+    margin-left: 10px;
+}
+.review {
+    margin-right: 12px
+}
+.team-title {
+    text-align: center;
+    margin-top: 50px
+}
+.team-title p {
+    margin-top: 20px;
+}
+.td-ah {
+    background-color: white;
+    width: 20vw;
+    height: 60vh;
+    margin-top: 40px;
+    box-shadow: rgb(231, 228, 228) 2px 2px;
+    text-align: center;
+
+}
+.authors {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.first-authors {
+    margin-right: 20px;
+}
+.second-authors {
+    margin-right: 20px;
+}
+.td-ah h2 {
+    margin-top: 20px;
+}
+.td-ah button {
+    background-color: rgb(255, 255, 255);
+    color: blue;
+    border: none;
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    margin-top: 10px;
+    
+}
+.contact {
+    height: 120vh;
+    background-color: rgb(243, 246, 247)
+
+}
